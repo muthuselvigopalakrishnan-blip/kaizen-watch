@@ -1,0 +1,136 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+}
+
+.left img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+}
+
+.brand {
+  font-size: 14px;
+  color: #555;
+}
+
+.product-name {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating span {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.discount {
+  color: orange;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.tax {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-options img {
+  width: 60px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.color-options img:hover {
+  transform: scale(1.1);
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #1f40e7a8, #121523a8);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"] > a {
+  text-decoration: none;
+  color: #fff(167, 28, 28);
+}
+
+button[type="submit"]:hover {
+  background-color: burlywood;
+}

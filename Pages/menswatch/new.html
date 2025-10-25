@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smartwatch Product Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .left {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .left img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .brand {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .product-name {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .description {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .rating span {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1a1a1a;
+    }
+
+    .mrp {
+      text-decoration: line-through;
+      color: #999;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+
+    .discount {
+      color: orange;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .tax {
+      color: green;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .section-title {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .color-options {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .color-options img {
+      width: 60px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .size-options {
+      margin-top: 10px;
+    }
+
+    .size-button {
+      padding: 10px 20px;
+      border: 2px solid red;
+      color: red;
+      border-radius: 20px;
+      font-weight: bold;
+      background: transparent;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- LEFT: Watch Image -->
+    <div class="left">
+      <img src="../../assets/2.jpg" alt="GOBoult Watch">
+    </div>
+
+    <!-- RIGHT: Product Info -->
+    <div class="right">
+      <div class="brand">GOBoult</div>
+      <div class="product-name">Boult Thrux 1.39" HD Screen, GPS Tracker, BT Calling Smartwatch</div>
+      <div class="description">Previously Boult Thrux. GPS Tracker, Working Crown, BT Calling, HD Display & Rugged Design.</div>
+      <div class="rating">
+        <span>★ 4.0</span>
+        <div>(383 Ratings)</div>
+      </div>
+
+      <div class="price">₹1799 <span class="mrp">₹7999</span> <span class="discount">(Rs. 6200 OFF)</span></div>
+      <div class="tax">inclusive of all taxes</div>
+
+      <div class="section-title">More Color</div>
+      <div class="color-options">
+        <img src="../../assets/2.jpg" alt="Color Option 1">
+      </div>
+
+      <div class="section-title">Select Size</div>
+      <div class="size-options">
+        <button class="size-button">Onesize</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

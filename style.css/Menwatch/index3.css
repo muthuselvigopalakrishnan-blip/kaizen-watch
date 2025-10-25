@@ -1,0 +1,88 @@
+.hello {
+  margin: 10px;
+  margin-top: 20px;
+}
+.nav {
+  display: flex;
+  background-color: rgb(105, 105, 202);
+}
+.heading {
+  text-align: center;
+  margin-left: 380px;
+  font-size: 50px;
+  margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main img {
+  height: 400px;
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  justify-items: center;
+}
+.details {
+  margin-left: -400px;
+}
+.product-title {
+  margin-left: 500px;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 10px;
+}
+.product-price {
+  text-align: top;
+  font-size: 25px;
+  color: rgb(68, 17, 235);
+  margin-top: 20px;
+  margin-left: 600px;
+  font-family: "Times New Roman", Times, serif;
+}
+.color {
+  display: flex;
+  margin-left: 600px;
+}
+.buy-button button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #1f40e7a8, #121523a8);
+  margin-left: 600px;
+}
+.buy-button > button > a {
+  color: white;
+  text-decoration: none;
+}
+
+.img_css img {
+  height: 400px;
+  width: 400px;
+}
+.card-row {
+  margin-top: 50px;
+  margin-left: 200px;
+  display: flex;
+}
+.back-button button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #1f40e7a8, #121523a8);
+  margin-left: 600px;
+}
+.back-button {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 300px;
+}
+.back-button > button > a{
+    color: white;
+    text-decoration: none;
+}
